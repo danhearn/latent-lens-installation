@@ -1,10 +1,10 @@
 # Latent Lens 
 
-Script that takes a 3 channel 512x512 webcam input and reduces it to 16 latent dimensions. The values are streamed via OSC to 2 local network ports. 
+Script that takes a 3 channel 512x512 webcam input and reduces it to 16 latent dimensions. The values are streamed via OSC to 2 local network ports for sonification and visualisation. 
 
 `network: 127.0.0.0` (localhost)
 `touchDesigner port: 9999`
-`puredata/MAX portL 9998`
+`puredata/MAX port: 9998`
 
 ## Setup 
 
