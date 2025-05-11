@@ -22,7 +22,6 @@ while True:
 
     with torch.no_grad():
         latent = vae.encode(input_tensor).latent_dist.mean  
-        pooled_latent = latent.mean(dim=(2, 3))  
         
     # Split each 64x64 feature map into 4 quadrants (32x32)
     q1 = latent[:, :, :32, :32]  # top-left
