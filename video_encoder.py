@@ -40,7 +40,9 @@ class Video_Encoder:
         p4 = q4.mean(dim=(2, 3))  # [1, 4]
 
         pooled_latent = torch.cat([p1, p2, p3, p4], dim=1)
-        return pooled_latent
+        normalised_latents = (pooled_latent - pooled_latent.min()) / (pooled_latent.max() - pooled_latent.min())
+        
+        return normalised_latents
     
     def image_to_latent(self):
         frame = self.process_image() 
