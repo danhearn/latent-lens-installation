@@ -27,9 +27,9 @@ With the venv activated, run `main.py`
 
 ## Max MSP 
 
-- First you need to install `nn_tilde` from <a href="https://github.com/acids-ircam/nn_tilde">here</>.
+- First you need to install `nn_tilde` from <a href="https://github.com/acids-ircam/nn_tilde">here<a/>.
 
-- Then download this folder with these required files from <a href="https://drive.google.com/drive/folders/11v8k33vdOAJranC4ZX6IosW-x4-pnK_m?usp=sharing">here<a/>
+- Then download this folder with these required files from <a href="https://drive.google.com/drive/folders/11v8k33vdOAJranC4ZX6IosW-x4-pnK_m?usp=sharing">here</a>
 
 - Then open Max, in the top toolbar navigate to `options>file preferences`. Add a file path to the above folder. You will need to restart Max for the new packages to update.
 
