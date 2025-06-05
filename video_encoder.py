@@ -71,5 +71,5 @@ class Video_Encoder:
     def close(self):
         if self.cap.isOpened():
             self.cap.release()
-        ndi.send_destory(self.ndi_send)
+        ndi.send_destroy(self.ndi_send)
         ndi.destroy()
