@@ -11,7 +11,8 @@ encoder = Video_Encoder()
 try:
     while True:
         latent_vec = encoder.image_to_latent()
-        print(latent_vec)
+        if latent_vec is not None:
+            print(latent_vec)
         if latent_vec is not None:
             latent_queue.put(latent_vec)
 except KeyboardInterrupt:
