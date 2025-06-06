@@ -3,6 +3,7 @@ from diffusers.models import AutoencoderKL
 import cv2
 import numpy as np
 import NDIlib as ndi
+import sys
 
 class Video_Encoder: 
     def __init__(self): 
